@@ -1,0 +1,253 @@
+﻿<html>
+
+<head>
+    <title>详情页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <style type="text/css">
+        html,
+        body,
+        ul,
+        li {
+            margin: 0px;
+            padding: 0px;
+            font-family: 微软雅黑;
+        }
+
+        li {
+
+            list-style-type: none;
+        }
+
+
+        nav {
+            height: 43px;
+            line-height: 43px;
+        }
+
+        .menu {
+            height: 43px;
+            line-height: 43px;
+            font-size: 16px;
+            color: #494949;
+            font-weight: bold;
+        }
+
+        .menu .active {
+            color: #FF8DA7;
+            text-decoration: underline;
+        }
+
+        .menu div {
+            display: inline-block;
+            height: 43px;
+            line-height: 43px;
+        }
+
+        .menu .back {
+            float: left;
+            margin-left: 10px;
+            width: 30px;
+            background-image: url(imgs/lt.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 30px 25px;
+            cursor: pointer;
+        }
+
+        .menu .share {
+            float: right;
+            width: 48px;
+            background-image: url(imgs/share.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100% 100%;
+        }
+
+
+        .menu .tap div {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .preview {
+            height: 323px;
+            text-align: center;
+            margin: 0px auto;
+        }
+
+        .banner {
+            background-color: #F5F5F5;
+            margin-bottom: 41px;
+        }
+
+        .banner .up {
+            height: 23px;
+            line-height: 23px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .banner .up .big {
+            font-size: 14px;
+            color: #F69698;
+        }
+
+        .banner .up .little {
+            font-size: 12px;
+            color: #BDC1C0;
+            text-decoration: line-through;
+        }
+
+
+
+        .banner .down {
+            height: 23px;
+            line-height: 23px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .banner .down {
+            font-size: 14px;
+            color: #777777;
+        }
+
+
+        .banner li {
+            background-color: white;
+            height: 46px;
+        }
+
+        .banner .line {
+            margin-top: 3px;
+        }
+
+        .features {
+            padding-left: 5px;
+        }
+
+        .feature {
+            display: inline-block;
+            line-height: 46px;
+            font-size: 12px;
+            text-align: center;
+            padding-left: 18px;
+            padding-right: 5px;
+            color: #B9B9B9;
+            background-image: url(imgs/right.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 15px 15px;
+        }
+
+        .details {
+            text-align: center;
+            color: #7A7A7A;
+            cursor: pointer;
+            line-height: 46px;
+            font-weight: bold;
+        }
+
+        .buy {
+            height: 41px;
+            background-color: #F5F5F5;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+
+        .buynow {
+            float: right;
+            height: 41px;
+            line-height: 41px;
+            background-color: #FD4964;
+            color: white;
+            width: 107px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .shopcar {
+            float: right;
+            height: 41px;
+            line-height: 41px;
+            background-color: #FF96A5;
+            color: white;
+            width: 107px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .buy .leftbutton {
+
+            float: right;
+            cursor: pointer;
+            margin-right: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <nav>
+            <div class="menu">
+                <div class="back">&nbsp;</div>
+
+                <div class="tap">
+                    <div class="active">商品详情</div>
+                    <div>素材</div>
+                </div>
+
+                <div class="share">&nbsp;&nbsp;</div>
+            </div>
+        </nav>
+
+        <div class="preview">
+            <img src="imgs/product.png" height="323" />
+        </div>
+
+        <ul class="banner">
+            <li>
+                <div class="up">
+                    <span class="big">¥108.00</span>
+                    <span class="little">¥108.00</span>
+                </div>
+                <div class="down">
+                    [自营] 圣元奶粉
+                </div>
+            </li>
+            <li class="line features">
+                <div class="feature">PICC承包</div>
+                <div class="feature">满99包邮</div>
+                <div class="feature">24h发货</div>
+                <div class="feature">售后服务</div>
+            </li>
+            <li class="line details">图文详情</li>
+        </ul>
+    </div>
+    <div class="buy">
+
+        <div class="buynow">
+            立即购买
+        </div>
+        <div class="shopcar">
+            加入购物车
+        </div>
+        <div class="leftbutton">
+            <img src="imgs/sc.png" height="41" />
+        </div>
+        <div class="leftbutton">
+            <img src="imgs/kf.png" height="41" />
+        </div>
+    </div>
+
+</body>
+
+</html>
